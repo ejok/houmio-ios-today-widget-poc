@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F3010BE1AB0DB4A0005C27F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3010BD1AB0DB4A0005C27F /* main.m */; };
+		7F3010C11AB0DB4A0005C27F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3010C01AB0DB4A0005C27F /* AppDelegate.m */; };
+		7F3010C41AB0DB4A0005C27F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3010C31AB0DB4A0005C27F /* ViewController.m */; };
+		7F3010C71AB0DB4A0005C27F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F3010C51AB0DB4A0005C27F /* Main.storyboard */; };
+		7F3010C91AB0DB4A0005C27F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3010C81AB0DB4A0005C27F /* Images.xcassets */; };
+		7F3010CC1AB0DB4A0005C27F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F3010CA1AB0DB4A0005C27F /* LaunchScreen.xib */; };
+		7F3010D81AB0DB4A0005C27F /* houmio_apply_widgetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3010D71AB0DB4A0005C27F /* houmio_apply_widgetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F3010D21AB0DB4A0005C27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F3010B01AB0DB4A0005C27F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F3010B71AB0DB4A0005C27F;
+			remoteInfo = "houmio-apply-widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F3010B81AB0DB4A0005C27F /* houmio-apply-widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "houmio-apply-widget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3010BC1AB0DB4A0005C27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3010BD1AB0DB4A0005C27F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F3010BF1AB0DB4A0005C27F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F3010C01AB0DB4A0005C27F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F3010C21AB0DB4A0005C27F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F3010C31AB0DB4A0005C27F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F3010C61AB0DB4A0005C27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F3010C81AB0DB4A0005C27F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F3010CB1AB0DB4A0005C27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7F3010D11AB0DB4A0005C27F /* houmio-apply-widgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "houmio-apply-widgetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3010D61AB0DB4A0005C27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3010D71AB0DB4A0005C27F /* houmio_apply_widgetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = houmio_apply_widgetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F3010B51AB0DB4A0005C27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3010CE1AB0DB4A0005C27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F3010AF1AB0DB4A0005C27F = {
+			isa = PBXGroup;
+			children = (
+				7F3010BA1AB0DB4A0005C27F /* houmio-apply-widget */,
+				7F3010D41AB0DB4A0005C27F /* houmio-apply-widgetTests */,
+				7F3010B91AB0DB4A0005C27F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F3010B91AB0DB4A0005C27F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F3010B81AB0DB4A0005C27F /* houmio-apply-widget.app */,
+				7F3010D11AB0DB4A0005C27F /* houmio-apply-widgetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F3010BA1AB0DB4A0005C27F /* houmio-apply-widget */ = {
+			isa = PBXGroup;
+			children = (
+				7F3010BF1AB0DB4A0005C27F /* AppDelegate.h */,
+				7F3010C01AB0DB4A0005C27F /* AppDelegate.m */,
+				7F3010C21AB0DB4A0005C27F /* ViewController.h */,
+				7F3010C31AB0DB4A0005C27F /* ViewController.m */,
+				7F3010C51AB0DB4A0005C27F /* Main.storyboard */,
+				7F3010C81AB0DB4A0005C27F /* Images.xcassets */,
+				7F3010CA1AB0DB4A0005C27F /* LaunchScreen.xib */,
+				7F3010BB1AB0DB4A0005C27F /* Supporting Files */,
+			);
+			path = "houmio-apply-widget";
+			sourceTree = "<group>";
+		};
+		7F3010BB1AB0DB4A0005C27F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F3010BC1AB0DB4A0005C27F /* Info.plist */,
+				7F3010BD1AB0DB4A0005C27F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F3010D41AB0DB4A0005C27F /* houmio-apply-widgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F3010D71AB0DB4A0005C27F /* houmio_apply_widgetTests.m */,
+				7F3010D51AB0DB4A0005C27F /* Supporting Files */,
+			);
+			path = "houmio-apply-widgetTests";
+			sourceTree = "<group>";
+		};
+		7F3010D51AB0DB4A0005C27F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F3010D61AB0DB4A0005C27F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F3010B71AB0DB4A0005C27F /* houmio-apply-widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3010DB1AB0DB4A0005C27F /* Build configuration list for PBXNativeTarget "houmio-apply-widget" */;
+			buildPhases = (
+				7F3010B41AB0DB4A0005C27F /* Sources */,
+				7F3010B51AB0DB4A0005C27F /* Frameworks */,
+				7F3010B61AB0DB4A0005C27F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "houmio-apply-widget";
+			productName = "houmio-apply-widget";
+			productReference = 7F3010B81AB0DB4A0005C27F /* houmio-apply-widget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F3010D01AB0DB4A0005C27F /* houmio-apply-widgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3010DE1AB0DB4A0005C27F /* Build configuration list for PBXNativeTarget "houmio-apply-widgetTests" */;
+			buildPhases = (
+				7F3010CD1AB0DB4A0005C27F /* Sources */,
+				7F3010CE1AB0DB4A0005C27F /* Frameworks */,
+				7F3010CF1AB0DB4A0005C27F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F3010D31AB0DB4A0005C27F /* PBXTargetDependency */,
+			);
+			name = "houmio-apply-widgetTests";
+			productName = "houmio-apply-widgetTests";
+			productReference = 7F3010D11AB0DB4A0005C27F /* houmio-apply-widgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F3010B01AB0DB4A0005C27F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Eeli Jokinen";
+				TargetAttributes = {
+					7F3010B71AB0DB4A0005C27F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7F3010D01AB0DB4A0005C27F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7F3010B71AB0DB4A0005C27F;
+					};
+				};
+			};
+			buildConfigurationList = 7F3010B31AB0DB4A0005C27F /* Build configuration list for PBXProject "houmio-apply-widget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F3010AF1AB0DB4A0005C27F;
+			productRefGroup = 7F3010B91AB0DB4A0005C27F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F3010B71AB0DB4A0005C27F /* houmio-apply-widget */,
+				7F3010D01AB0DB4A0005C27F /* houmio-apply-widgetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F3010B61AB0DB4A0005C27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3010C71AB0DB4A0005C27F /* Main.storyboard in Resources */,
+				7F3010CC1AB0DB4A0005C27F /* LaunchScreen.xib in Resources */,
+				7F3010C91AB0DB4A0005C27F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3010CF1AB0DB4A0005C27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F3010B41AB0DB4A0005C27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3010C41AB0DB4A0005C27F /* ViewController.m in Sources */,
+				7F3010C11AB0DB4A0005C27F /* AppDelegate.m in Sources */,
+				7F3010BE1AB0DB4A0005C27F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3010CD1AB0DB4A0005C27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3010D81AB0DB4A0005C27F /* houmio_apply_widgetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F3010D31AB0DB4A0005C27F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F3010B71AB0DB4A0005C27F /* houmio-apply-widget */;
+			targetProxy = 7F3010D21AB0DB4A0005C27F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F3010C51AB0DB4A0005C27F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F3010C61AB0DB4A0005C27F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F3010CA1AB0DB4A0005C27F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F3010CB1AB0DB4A0005C27F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F3010D91AB0DB4A0005C27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F3010DA1AB0DB4A0005C27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F3010DC1AB0DB4A0005C27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "houmio-apply-widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F3010DD1AB0DB4A0005C27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "houmio-apply-widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F3010DF1AB0DB4A0005C27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "houmio-apply-widgetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/houmio-apply-widget.app/houmio-apply-widget";
+			};
+			name = Debug;
+		};
+		7F3010E01AB0DB4A0005C27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "houmio-apply-widgetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/houmio-apply-widget.app/houmio-apply-widget";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F3010B31AB0DB4A0005C27F /* Build configuration list for PBXProject "houmio-apply-widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3010D91AB0DB4A0005C27F /* Debug */,
+				7F3010DA1AB0DB4A0005C27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3010DB1AB0DB4A0005C27F /* Build configuration list for PBXNativeTarget "houmio-apply-widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3010DC1AB0DB4A0005C27F /* Debug */,
+				7F3010DD1AB0DB4A0005C27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F3010DE1AB0DB4A0005C27F /* Build configuration list for PBXNativeTarget "houmio-apply-widgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3010DF1AB0DB4A0005C27F /* Debug */,
+				7F3010E01AB0DB4A0005C27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F3010B01AB0DB4A0005C27F /* Project object */;
+}
