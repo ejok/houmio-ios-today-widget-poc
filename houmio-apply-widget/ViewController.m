@@ -10,9 +10,17 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *siteKey;
 @end
 
 @implementation ViewController
+
+- (IBAction)getScenesButtonPressed:(id)sender {
+    NSUserDefaults *sharedDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.fi.nipe.HoumioApplyWidget"];
+    [sharedDefaults setObject:self.siteKey.text forKey:@"siteKey"];
+    [sharedDefaults synchronize];
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
