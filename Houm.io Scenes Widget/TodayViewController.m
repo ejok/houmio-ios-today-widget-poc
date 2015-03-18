@@ -10,14 +10,31 @@
 #import <NotificationCenter/NotificationCenter.h>
 
 @interface TodayViewController () <NCWidgetProviding>
-
+@property (weak, nonatomic) IBOutlet UIButton *sceneRow;
+@property NSString *siteKey;
+@property NSArray *scenes;
 @end
 
 @implementation TodayViewController
 
+- (IBAction)applyScene:(id)sender {
+    id scene = [self.scenes objectAtIndex:0];
+    NSString *sceneId = [scene valueForKey:@"_id"];
+
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString: [NSString stringWithFormat:@"https://houmi.herokuapp.com/api/site/%@/scene/%@/apply", self.siteKey, sceneId]]];
+    [request setHTTPMethod:@"PUT"];
+    [[NSURLConnection alloc] initWithRequest:request delegate:self];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.preferredContentSize = CGSizeMake(320, 60);
+    NSUserDefaults *sharedDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.fi.nipe.HoumioApplyWidget"];
+    self.siteKey = [sharedDefaults objectForKey:@"siteKey"];
+    self.scenes = [sharedDefaults objectForKey:@"scenesForWidget"];
+    id scene = [self.scenes objectAtIndex:0];
+    NSString *sceneName = [scene valueForKey:@"name"];
+    [self.sceneRow setTitle:sceneName forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning {
