@@ -35,8 +35,9 @@
                               options:kNilOptions
                               error:&error];
 
-    NSMutableDictionary *scenes = [site valueForKey:@"scenes"];
-    [self.sharedDefaults setObject:scenes forKey:@"scenes"];
+    NSArray *scenes = [site valueForKey:@"scenes"];
+
+    [self.sharedDefaults setObject:scenes forKey:@"scenesForWidget"];
 }
 
 - (void)showLoadingError {
