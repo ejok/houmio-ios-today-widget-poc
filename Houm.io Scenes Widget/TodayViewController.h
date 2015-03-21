@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TodayViewController : UIViewController
+@interface TodayViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+extern const int ROW_HEIGHT;
 
 @end

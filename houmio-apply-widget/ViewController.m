@@ -53,6 +53,12 @@
 
     if ([httpResponse statusCode] != 200) {
         [self showLoadingError];
+    } else {
+        [[[UIAlertView alloc] initWithTitle:@"Loaded"
+                                    message:@"Scenes loaded. Now open the Today Widget!"
+                                   delegate:nil
+                          cancelButtonTitle:NSLocalizedString(@"OK", @"")
+                          otherButtonTitles:nil] show];
     }
 }
 
